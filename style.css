@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%);
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+/* Resume Container */
+.resume-container {
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 15px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 3px solid #3498db;
+}
+
+.header-details h1 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.header-details p {
+  font-size: 14px;
+  color: #9c0a7f;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+/* Headings */
+h2 {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #0c63ba;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+/* Content */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2e2b2b;
+}
+
+.subheading {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signature {
+  margin-top: 20px;
+  font-style: italic;
+  color: #9c0a7f;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header img {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+}
+
+/* Print-Friendly */
+@media print {
+  body {
+    background: white !important;
+  }
+
+  .resume-container {
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
