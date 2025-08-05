@@ -1,10 +1,4 @@
-Here’s a complete **README.md** file you can include with your HTML and CSS-based resume project:
 
----
-
-### 📄 `README.md`
-
-```markdown
 # 🌟 Renuka Devi Kota – Personal Resume Website
 
 This is a responsive and modern **resume webpage** designed using simple **HTML** and **CSS**, enhanced with features like dark mode and PDF export.
@@ -19,19 +13,9 @@ This is a responsive and modern **resume webpage** designed using simple **HTML*
 
 ## 🗂 Folder Structure
 
-```
-
-
-
-```
-
 ## 🚀 How to Use
 
 1. **Clone or Download** the repository:
-```
-
-
-````
 
 2. **Open the Resume**  
 Double-click on `index.html` to view it in your browser.
@@ -75,9 +59,7 @@ https://yourusername.github.io/resume-website/
 
 This project is open-source and free to use for educational or personal resume purposes.
 
----
 
-📬 Feel free to fork and make it your own!
 
 ```
 
